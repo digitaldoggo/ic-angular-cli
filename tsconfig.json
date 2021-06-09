@@ -27,7 +27,6 @@
       "./node_modules/@types"
     ],
     "paths": {
-      "dfx-generated/*": [".dfx/local/canisters/hello/*"],
       "dfx-service/*": [".dfx/local/canisters/hello/*"]
     }
   },

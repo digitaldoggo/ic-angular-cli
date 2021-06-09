@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "dfx deploy Hello",
+    "postdeploy": "node ./scripts/fix-canister-typing.js"
   },
   "private": true,
   "dependencies": {

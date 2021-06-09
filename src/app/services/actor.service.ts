@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Actor, HttpAgent } from '@dfinity/agent';
-import { canisterId as Hello_canister_id, idlFactory as Hello_idl } from 'dfx-generated/hello';
-import _SERVICE from 'dfx-service/hello';
+import _SERVICE, { canisterId as Hello_canister_id, idlFactory as Hello_idl } from 'dfx-service/hello';
 
 import dfxConfig from '../../../dfx.json';
 
